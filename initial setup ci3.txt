@@ -1,0 +1,26 @@
+add 
+.htaccess file in root
+
+in index.php
+
+if($_SERVER['SERVER_ADDR'] == '103.20.212.253'){
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
+}else{
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+}
+
+
+
+set base_url in config file
+
+if($_SERVER['SERVER_ADDR'] == '103.20.212.253'){
+    $config['base_url'] = 'https://pincodes.ind.in';
+    }else{
+    $config['base_url'] = 'http://localhost/stydymath';
+    }
+
+Add database details
+
+change default controller in route if required
+
+$route['default_controller'] = 'welcome';
