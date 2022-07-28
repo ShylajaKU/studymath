@@ -2,9 +2,16 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$route['default_controller'] = 'welcome';
+// $route['default_controller'] = 'welcome';
+$route['default_controller'] = 'home_controller/home_fc';
+$route['pythagorean-theorem'] = 'article_controller/pythagorean_theorem_fc';
+$route['webp'] = 'webp_controller/webp_fc';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+// $route[]
 
 
 

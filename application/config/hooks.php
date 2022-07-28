@@ -11,3 +11,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |	https://codeigniter.com/userguide3/general/hooks.html
 |
 */
+// $hook['pre_system'] = array(
+//     'class'    => 'Router_Hook',
+//     'function' => 'get_routes',
+//     'filename' => 'Router_Hook.php',
+//     'filepath' => 'hooks',
+//     'params'   => array(
+//         $db['default']['hostname'],
+//         $db['default']['username'],
+//         $db['default']['password'],
+//         $db['default']['database'],
+//         $db['default']['dbprefix'],
+//         )
+//     );
+

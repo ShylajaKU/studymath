@@ -24,3 +24,9 @@ Add database details
 change default controller in route if required
 
 $route['default_controller'] = 'welcome';
+
+autoload.php
+
+$autoload['libraries'] = array('database','form_validation','session','calendar','table');
+
+

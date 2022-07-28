@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if($_SERVER['SERVER_ADDR'] == '103.20.212.253'){
     $config['base_url'] = 'https://pincodes.ind.in';
     }else{
-    $config['base_url'] = 'http://localhost/stydymath';
+    $config['base_url'] = 'http://localhost/studymath';
     }
 
 /*
